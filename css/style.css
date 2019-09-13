@@ -15,4 +15,81 @@ body {
   max-width: 940px;
   margin: 0 auto;
 }
+
+header {
+  height: 100vh;
+  background-image: url(../images/bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+}
+
+.navigation {
+  width: 100%;
+  padding-top: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.navigation .page-name {
+  color: #FDD135;
+  font-size: 1.6em;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.navigation .nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.4em;
+}
+
+.navigation a:last-child {
+  padding-right: 0;
+}
+
+.navigation .nav {
+  list-style: none;
+}
+
+.navigation .nav-item {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.navigation .nav-item:last-child {
+  padding-right: 0;
+}
+
+.main-header {
+  padding-top: 205px;
+}
+
+.main-header .page-subtitle {
+  padding-bottom: 50px;
+  font-size: 4em;
+}
+
+.main-header .page-title {
+  padding-bottom: 50px;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+
+.main-header .btn {
+  color: #ffffff;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #FDD135;
+  padding: 30px 65px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
