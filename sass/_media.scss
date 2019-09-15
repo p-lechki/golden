@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+
+    .navigation {
+        padding: 10px 0 0 10px;
+
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu-wrap {
+        display: block;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .portfolio {
+
+        .box {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+
+        .box-img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .box-description {
+            width: 100%;
+        }
+    }
+}

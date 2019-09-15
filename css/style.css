@@ -399,4 +399,36 @@ footer p {
   text-decoration: none;
   transition: color 0.4s ease;
 }
+
+@media (max-width: 767px) {
+  .navigation {
+    padding: 10px 0 0 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .menu-wrap {
+    display: block;
+  }
+  .boxes {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .box {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .portfolio .box {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .portfolio .box-img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .portfolio .box-description {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
