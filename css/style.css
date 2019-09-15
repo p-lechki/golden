@@ -16,6 +16,47 @@ body {
   margin: 0 auto;
 }
 
+section {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 1.4em;
+  color: #777777;
+  padding: 20px 0 80px 0;
+}
+
+.boxes {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.box {
+  max-width: 33.333%;
+  padding-right: 35px;
+}
+
+.box .box-title {
+  font-size: 1.8em;
+  padding: 25px 0;
+}
+
+.box .box-desc {
+  font-size: 1.4em;
+  color: #777777;
+}
+
 header {
   height: 100vh;
   background-image: url(../images/bg.png);
@@ -68,22 +109,22 @@ header {
   padding-right: 0;
 }
 
-.main-header {
+.splash {
   padding-top: 205px;
 }
 
-.main-header .page-subtitle {
+.splash .page-subtitle {
   padding-bottom: 50px;
   font-size: 4em;
 }
 
-.main-header .page-title {
+.splash .page-title {
   padding-bottom: 50px;
   font-size: 75px;
   text-transform: uppercase;
 }
 
-.main-header .btn {
+.splash .btn {
   color: #ffffff;
   font-size: 1.6em;
   text-transform: uppercase;
@@ -91,5 +132,15 @@ header {
   padding: 30px 65px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.fas {
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  line-height: 60px;
+  color: #FDD135;
+  border: 2px solid #FDD135;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
