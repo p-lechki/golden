@@ -1,0 +1,34 @@
+.portfolio {
+    background-color: $portfolio-bg;
+
+    .box {
+        margin-bottom: 50px;
+
+    }
+
+    .box-title {
+        padding: 25px 0 0 0;
+    }
+
+    .box-description {
+        background-color: $color-secoundary;
+        width: 290px;
+    }
+
+    .box-img {
+        overflow: hidden;
+        height: 300px;
+        width: 290px;
+
+        img {
+            object-fit: none;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .box-desc {
+        padding-bottom: 30px;
+    }
+}

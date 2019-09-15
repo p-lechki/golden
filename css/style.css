@@ -143,4 +143,38 @@ header {
   border: 2px solid #FDD135;
   border-radius: 50%;
 }
+
+.portfolio {
+  background-color: #e7e7e7;
+}
+
+.portfolio .box {
+  margin-bottom: 50px;
+}
+
+.portfolio .box-title {
+  padding: 25px 0 0 0;
+}
+
+.portfolio .box-description {
+  background-color: #ffffff;
+  width: 290px;
+}
+
+.portfolio .box-img {
+  overflow: hidden;
+  height: 300px;
+  width: 290px;
+}
+
+.portfolio .box-img img {
+  -o-object-fit: none;
+     object-fit: none;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .box-desc {
+  padding-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
