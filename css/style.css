@@ -78,9 +78,9 @@ header {
       justify-content: space-between;
 }
 
-.navigation .page-name {
+.navigation .logo {
   color: #FDD135;
-  font-size: 1.6em;
+  font-size: 2.6em;
   text-decoration: none;
   letter-spacing: 0.1em;
 }
@@ -90,6 +90,11 @@ header {
   text-transform: uppercase;
   color: #ffffff;
   font-size: 1.4em;
+  transition: all .3s;
+}
+
+.navigation .nav-item a:hover {
+  color: #FDD135;
 }
 
 .navigation a:last-child {
@@ -98,6 +103,7 @@ header {
 
 .navigation .nav {
   list-style: none;
+  padding-top: 12px;
 }
 
 .navigation .nav-item {
@@ -132,6 +138,12 @@ header {
   padding: 30px 65px;
   border-radius: 5px;
   cursor: pointer;
+  transition: all .5s;
+}
+
+.splash .btn:hover {
+  color: #FDD135;
+  background-color: #ffffff;
 }
 
 .fas {
@@ -167,11 +179,16 @@ header {
   width: 290px;
 }
 
+.portfolio .box-img a:hover img {
+  transform: scale(1.2);
+}
+
 .portfolio .box-img img {
   -o-object-fit: none;
      object-fit: none;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 .portfolio .box-desc {
@@ -212,6 +229,11 @@ footer ul li {
 
 footer ul li a {
   display: inline-block;
+  transition: all .5s;
+}
+
+footer ul li a:hover {
+  transform: scale(1.2);
 }
 
 footer p {

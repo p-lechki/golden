@@ -22,6 +22,11 @@ footer {
 
             a {
                 display: inline-block;
+                transition: all .5s;
+            }
+
+            a:hover {
+                transform: scale(1.2);
             }
         }
     }

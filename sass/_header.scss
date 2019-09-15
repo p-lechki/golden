@@ -15,9 +15,9 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    .page-name {
+    .logo {
         color: $color-third;
-        font-size: 1.6em;
+        font-size: 2.6em;
         text-decoration: none;
         letter-spacing: 0.1em;
     }
@@ -27,6 +27,11 @@ header {
         text-transform: uppercase;
         color: $color-secoundary;
         font-size: 1.4em;
+        transition: all .3s;
+    }
+
+    .nav-item a:hover {
+        color: $color-third;
     }
 
     a:last-child {
@@ -35,6 +40,7 @@ header {
 
     .nav {
         list-style: none;
+        padding-top: 12px;
     }
 
     .nav-item {
@@ -69,5 +75,11 @@ header {
         padding: 30px 65px;
         border-radius: 5px;
         cursor: pointer;
+        transition: all .5s;
+    }
+
+    .btn:hover {
+        color: $color-third;
+        background-color: $color-secoundary;
     }
 }
